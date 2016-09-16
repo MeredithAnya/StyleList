@@ -33,9 +33,9 @@ export default class ArticleListItem extends React.Component {
     }
     return (
       <div onClick={this._clicked}className="article-list-item">
-        <p className='list-item-title'>Title: {this.state.item.title}</p>
-        <p className='list-item-worn'>Last Worn: {this.state.item.last_worn || "Unknown"}</p>
-        <p className='list-item-description'>Description: {description}</p>
+        <p className='list-item-title'>Title: <span style={{color: "black"}}>{this.state.item.title}</span></p>
+        <p className='list-item-worn'>Last Worn: <span style={{color: "black"}}>{this.state.item.last_worn || "Unknown"}</span></p>
+        <p className='list-item-description'>Description: <span style={{color: "black"}}>{description}</span></p>
       </div>
     )
   }

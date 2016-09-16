@@ -5,7 +5,12 @@
   margin-bottom: 5px;
   /*height: 50px;*/
   background-color: #d3f8d3;
+  background-color: #6699ff;
   /*background-color: #134074;*/
+}
+.article-list-item p {
+  background-color: rgba(230, 238, 255, 0.3);
+  color: white;
 }
 
 .article-list-item:after {
