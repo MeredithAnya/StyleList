@@ -1,6 +1,6 @@
 .type-filter {
   /*background-color: white;*/
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.6);
   border: 1px solid black;
   border-radius: 5px;
   min-height: 100px;
@@ -14,7 +14,8 @@
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   /*background-color: #206dc5;*/
-  background-color: rgba(90, 40, 5, .8);
+  background-color: rgba(102, 102, 51, .6);
+  /*background-color: #77773c;*/
   /*background-color: #F8FFE5;*/
   justify-content: space-between;
   color: white;
@@ -22,6 +23,7 @@
 }
 
 .filter-header p {
+  font-family: 'Raleway', sans-serif;
   display: inline-block;
   font-size: 25px;
   padding: 10px;
@@ -29,12 +31,13 @@
 }
 
 .show-button {
+  font-family: 'Raleway', sans-serif;
   width: 150px;
   padding: 10px;
   text-align: right;
 }
 
-.filter-header button:hover {
+.show-button:hover {
   color: lightblue;
 }
 
@@ -46,22 +49,30 @@
 }
 
 .filter-apply {
-  border: 1px solid black;
+  /*border: 3px solid #ff8080;*/
+  border-bottom: 3px solid #ff8080;
   border-radius: 4px;
   padding: 5px;
   text-align: center;
   height: 20px;
   margin: auto auto;
-  background-color: red;
+  /*background-color: white;*/
   color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.filter-apply:hover {
+  background-color: #ff8080;
 }
 
 .filter-title {
   width: 100%;
+  padding: 5px;
+  margin-bottom: 2px;
   font-size: 25px;
   text-align: center;
   background-color: rgba(230, 238, 255, 0.3);
-  border-bottom: 5px solid white;
+  /*border-bottom: 5px solid transparent;*/
 }
 
 .filter-title:hover {
@@ -91,8 +102,8 @@
 }
 
 .filter-weather {
-  background-color: #6699ff;
-  color: white;
+  /*background-color: #6699ff;*/
+  color: black;
   /*background-color: #ccccff;*/
   border-radius: 4px;
   min-width: 150px;
@@ -124,9 +135,9 @@
 }
 
 .filter-colors {
-  background-color: #6699ff;
+  /*background-color: #6699ff;*/
   /*background-color: #ccccff;*/
-  color: white;
+  color: black;
   border-radius: 4px;
   display: flex;
   justify-content: center;
@@ -145,7 +156,7 @@
 
 .filter-formality {
   border-radius: 4px;
-  background-color: #6699ff;
+  /*background-color: #6699ff;*/
   /*background-color: #ccccff;*/
   color: white;
   margin: 0px 10px;
@@ -171,7 +182,8 @@
 }
 
 .checked {
-  background-color: pink;
+  background-color: #ff8080;
+  color: white;
 }
 
 .isHidden {

@@ -6,10 +6,12 @@
   /*height: 50px;*/
   background-color: #d3f8d3;
   background-color: #6699ff;
+  background-color: #a6a6a6;
+  background-color: rgba(166, 166, 166, 0.8);
   /*background-color: #134074;*/
 }
 .article-list-item p {
-  background-color: rgba(230, 238, 255, 0.3);
+  /*background-color: rgba(230, 238, 255, 0.3);*/
   color: white;
 }
 
