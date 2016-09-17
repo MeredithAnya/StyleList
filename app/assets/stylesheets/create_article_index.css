@@ -1,6 +1,7 @@
 .create-article-index {
   /*background-color: #ffccb3;*/
   background-color: #e6e6ff;
+  background-color: rgba(255, 255, 255, 0.6);
   /*background-color: #6699ff;*/
   min-height: 500px;
   position: absolute;
@@ -21,11 +22,12 @@
   width: 100%;
   text-align: center;
   /*color: #134074;*/
-  color: white;
+  /*color: white;*/
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 3px solid white;
   background-color: rgba(230, 238, 255, 0.3);
+  background-color: rgba(102, 102, 51, .6);
 }
 
 
@@ -37,7 +39,7 @@
   /*flex-wrap: wrap;*/
   /*height: 400px;*/
   /*border: 1px solid orange;*/
-  background-color: #6699ff;
+  /*background-color: #6699ff;*/
   width: 75%;
   max-width: 75%;
   margin-top: 30px;
@@ -62,15 +64,17 @@
   padding:10px 10px;
   margin: 9px;
   border-radius: 3px;
-  background-color: #33ccff;
-  background-color: #6699ff;
+  /*background-color: #33ccff;*/
+  /*background-color: #6699ff;*/
+
   /*border-bottom: 1px solid white;*/
   /*border-top: 1px solid white;*/
 }
 .create-article-list p {
   background-color: rgba(230, 238, 255, 0.3);
+  background-color: rgba(166, 166, 166, 0.8);
   text-align: center;
-  color: white;
+  /*color: white;*/
   width: 150px;
   padding: 5px 5px;
   display: inline-block;

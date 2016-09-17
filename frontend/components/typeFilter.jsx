@@ -211,7 +211,7 @@ export default class TypeFilter extends React.Component {
     return (
       <div className='type-filter'>
         <div className="filter-header">
-          <p>{this.state.type} ({this.state.displayed.length})</p>
+          <p><img id="hanger" src={"http://icons.iconarchive.com/icons/iconsmind/outline/128/Hanger-icon.png"}/>{this.state.type}<span id="type-num">{this.state.displayed.length}</span></p>
           <button onClick={this._updateFilter} className={'filter-apply ' + this.state.type} >Apply Filters</button>
           <button className='show-button' onClick={this._toggleHidden}>{showText}</button>
         </div>
